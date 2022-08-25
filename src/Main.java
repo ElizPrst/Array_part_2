@@ -39,12 +39,16 @@ min = arr[i];
             System.out.println("Минимальная сумма трат за день составила "+min +"рублей");
 
     //Задание 3
-     int mean = sum/arr.length;
-            System.out.println("Средняя сумма трат за месяц составила "+mean+ "рублей");
+     double mean = (double)sum/arr.length;
+            System.out.printf("Средняя сумма трат за месяц составила "+"%.2f",mean);
+            System.out.printf("рублей");
+            System.out.println();
    //Задание 4
             char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+            for (int i= reverseFullName.length-1; i>=0;i--){
+                System.out.print(reverseFullName[i]);
 
-
+            }
 }
 }
 
